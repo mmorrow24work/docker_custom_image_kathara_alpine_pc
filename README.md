@@ -1,5 +1,5 @@
 
-# dockerfile for kathara_alpine_pc_custom_image
+# dockerfile for custom_image used with kathara alpine_pc
 
 Mick Morrow  | Solutions Architect
 Email: Mick.Morrow@telent.com
