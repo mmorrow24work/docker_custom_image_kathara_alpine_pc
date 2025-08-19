@@ -35,8 +35,8 @@ WSL-Ubuntu 24.04.1 LTS:$
 
 ***
 
-# Install required packages
-# Configure SNMPD: minimal snmpd.conf with trap target and community "public"
-# Configure Zabbix Agent: update Server and Hostname for flexibility
-# Expose SNMP (161/udp), Zabbix agent port (10050/tcp), softflowd (2055/udp)
-# Start all required services and keep container running
+* Install required packages
+* Configure SNMPD: minimal snmpd.conf with trap target and community "public"
+* Configure Zabbix Agent: update Server and Hostname for flexibility
+* Expose SNMP (161/udp), Zabbix agent port (10050/tcp), softflowd (2055/udp)
+* Start all required services and keep container running
