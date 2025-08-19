@@ -8,6 +8,8 @@ Web: www.telent.com
 
 I created this dockerfile for the customer docker image I use for my digital twin kathara lab.conf - see extract below :
 
+```bash
+
 WSL-Ubuntu 24.04.1 LTS:$ cat lab.conf
 LAB_DESCRIPTION="Network Configuration Scenario – IS#33B"
 LAB_VERSION=1.0
@@ -31,7 +33,10 @@ pc1[image]="alpine_pc"
 pc2[0]="24"
 pc2[image]="alpine_pc"
 
-WSL-Ubuntu 24.04.1 LTS:$ 
+WSL-Ubuntu 24.04.1 LTS:$
+
+
+```
 
 ***
 
