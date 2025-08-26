@@ -8,7 +8,7 @@ Web: www.telent.com
 
 I created this dockerfile for the customer docker image I use for my digital twin kathara lab.conf - see extract below :
 
-```bash
+```
 WSL-Ubuntu 24.04.1 LTS:$ cat lab.conf
 LAB_DESCRIPTION="Network Configuration Scenario – IS#33B"
 LAB_VERSION=1.0
@@ -45,7 +45,7 @@ WSL-Ubuntu 24.04.1 LTS:$
 
 # Example build ...
 
-```bash
+```
 mmorrow24work@digital-twin-version-1-0:~/docker/custom-images/docker_custom_image_kathara_alpine_pc$ docker --debug build -t alpine_pc:1.0 . 
 [+] Building 5.6s (8/8) FINISHED                                                                                                                                                                                                          docker:default
  => [internal] load build definition from Dockerfile                                                                                                                                                                                                0.0s
@@ -82,5 +82,4 @@ Dockerfile:39
 --------------------
 
 mmorrow24work@digital-twin-version-1-0:~/docker/custom-images/docker_custom_image_kathara_alpine_pc$ 
-
 ```
